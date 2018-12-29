@@ -12,4 +12,4 @@ Plug 'antonk52/vim-tabber'
 
 ## Usage
 
-Tabber maps leader 1 to 9 to navigate between tabs. Each short cut will take to you to the appropriate tab. If the namber is greater than the current tabs count tabber takes you to the last tab. `<leader>9` always takes you to the last tab. Now you can start cycle through your tabs using `<leader>` and numbers shortcut.
+Tabber sets mappings `<leader>{count}` 1 through 9 to navigate between tabs. Each short cut will take to you to the appropriate tab. If the number is greater than the current tab count tabber takes you to the last tab. `<leader>9` always takes you to the last tab. Now you can start cycling through your tabs using `<leader>{count}` shortcuts.
