@@ -4,10 +4,16 @@ Simple tab management in vim. Simulate browser behavior in tab navigation using 
 
 ## Installation
 
-Use a plugin manager of your preference. Here is an example using [Vim Plug](https://raw.githubusercontent.com/junegunn/vim-plug/)
+Use a plugin manager of your preference.
 
+[Plug](https://github.com/junegunn/vim-plug)
 ```vim
 Plug 'antonk52/vim-tabber'
+```
+
+[Vundle](https://github.com/VundleVim/Vundle.vim)
+```vim
+Plugin 'antonk52/vim-tabber'
 ```
 
 ## Usage
