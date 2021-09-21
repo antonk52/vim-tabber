@@ -11,7 +11,7 @@ function! TabberGoToTab(tab_number)
       execute(':tabfirst')
     " if required tab is greater than the wanted one
     " always go to the last tab
-    elseif (a:tab_number >= l:total_tabs)
+    elseif (a:tab_number >= l:total_tabs || a:tab_number == 9)
       execute(':tablast')
     else
       execute('normal! ' . a:tab_number . 'gt')
